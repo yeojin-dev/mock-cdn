@@ -1,0 +1,51 @@
+# Dependencies
+node_modules
+
+# Build output (will be generated in Docker)
+dist
+
+# Development files
+npm-debug.log
+.npm
+.env
+.env.local
+.env.*.local
+
+# IDE and editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Docker files (prevent recursive copy)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Test files
+*.test.ts
+*.spec.ts
+coverage
+.nyc_output
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Render config (not needed for Back4app)
+render.yaml
+
+# Sisyphus plans
+.sisyphus
+
+# Test scripts
+test.sh
